@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function print_me()
+{
+
+    val1=Number(document.getElementById("input1").value);
+    val1=Number(document.getElementById("input2").value);
+
+    console.log(val1);
+    console.log(val2);
+
+    document.getElementById("Result").value=value1+value2;
+
+}
+</script>
+</head>
+<body>
+<form>
+int1:<input Name="input1" type="text" id="input1"><br></br>
+int2:<input Name="input2" type="text" id="input2"><br></br>
+Result:<input type="text" id="Result"><br></br>
+<button>Add</button>
+<button>Sub</button>
+<button>Mul</button>
+<button>Div</button>
+<input type="submit" onclick="print_me()"><br>
+</form>
+</body>
+</html>
